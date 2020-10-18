@@ -32,9 +32,26 @@
 <body style = "background-color: #eff9ff">
     <div class="wrapper" style = "border-radius: 15px; box-shadow: 0 10px 30px 0 rgba(0,0,0,.1)">
 
-            <div class="sidebar-wrapper" style = "border-top-right-radius:15px; border-bottom-right-radius:15px">
+           <style>
+         @media only screen and (max-width: 769px) {
+          .sidebar-wrapper{
+            border-radius: 15px;
+          }
+}
+       </style>
+        <div class="sidebar-wrapper" style = "border-top-right-radius:15px; border-bottom-right-radius:15px;">
+          
+          
 
-		            <div class="profile-container" style = "border-top-right-radius: 15px;" >
+		            <style>
+         @media only screen and (max-width: 769px) {
+          .profile-container{
+            border-top-left-radius: 15px;
+          }
+               
+            </style>
+            
+            <div class="profile-container" style = "border-top-right-radius: 15px;" >
                
                 <h1 class="name">José Carlos Soage</h1>
                 <h3 class="tagline">Economista y Estadístico</h3>
@@ -85,8 +102,8 @@
                 <ul class="list-unstyled interests-list">
 				
                     <li>Castellano <span class="lang-desc">(Nativo)</span></li>
-			
-	            <li>Gallego <span class="lang-desc">(Nativo)</span></li>
+				
+                    <li>Gallego <span class="lang-desc">(Nativo)</span></li>
 				
                     <li>Inglés <span class="lang-desc">(Medio-Avanzado)</span></li>
 				
@@ -215,35 +232,74 @@
                 </div>
 				
             </section>
-		
-		
- <section class="section projects-section">
-                <h2 class="section-title"><i class="fa fa-terminal"></i>Cursos y seminarios impartidos</h2>
-                <div class="intro">
-                    <p></p>
-                </div>
-			 
-	       <div class="item">
-                    <span class="project-title"><a href="sidor.uvigo.es/en/activities/workshops/1265-2019-07-18-statistical-workshop">"Regresión modal a través de la distribución de los cuantiles condicionales."</a></span> - <span class="project-tagline">julio 2019. Universidad de Vigo.</span>
+
+    
+    
+    
+                <section class="section experiences-section">
+                <h2 class="section-title"><i class="fa fa-pencil-square-o"></i>Cursos y seminarios impartidos</h2>
+
+				
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Regresión modal a través de la distribución de los cuantiles condicionales</h3>
+                            <div class="time">07/2019</div>
+                        </div>
+                        <div class="company">Universidad de Vigo</div>
+                    </div>
+                    <div class="details">
+                        <p></p>
+                    </div>
                 </div>
 				
                 <div class="item">
-                    <span class="project-title">Curso de Introducción a la Bioestadística con R./span> - <span class="project-tagline">2019. Sergas.</span>
-                </div>
-			
-		<div class="item">
-                    <span class="project-title"><a href="http://sidor.uvigo.es/en/activities/workshops/1229-2018-11-22-23-seminars-on-statistics">"Speeding up R code"</a></span> - <span class="project-tagline">noviembre 2018. Universidad de Vigo.</span>
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Curso de Introducción a la Bioestadística con R</h3>
+                            <div class="time">2019</div>
+                        </div>
+                        <div class="company">Sergas</div>
+                    </div>
+                    <div class="details">
+                        <p></p>
+                    </div>
                 </div>
 				
                 <div class="item">
-                    <span class="project-title"><a href="http://sidor.uvigo.es/en/activities/seminars/1182-2018-03-21-jose-carlos-soage-gonzalez-university-of-vigo">"Specialized software development"</a></span> - <span class="project-tagline">marzo 2018. Universidad de Vigo.</span>
-                </div>	
-			
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">&#39;Speeding up R code&#39;</h3>
+                            <div class="time">11/2018</div>
+                        </div>
+                        <div class="company">Universidad de Vigo</div>
+                    </div>
+                    <div class="details">
+                        <p></p>
+                    </div>
+                </div>
+				
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">&#39;Specialized software development&#39;</h3>
+                            <div class="time">03/2018</div>
+                        </div>
+                        <div class="company">Universidad de Vigo</div>
+                    </div>
+                    <div class="details">
+                        <p></p>
+                    </div>
+                </div>
+				
+
             </section>
 
     
+
+    
 	            <section class="skills-section section">
-                <h2 class="section-title"><i class="fa fa-rocket"></i>habilidades informáticas</h2>
+                <h2 class="section-title"><i class="fa fa-rocket"></i>Conocimientos informáticos</h2>
                 <div class="skillset">
 				
                     <div class="item">
@@ -330,7 +386,7 @@
         <div class="text-center">
                 
                 <small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" rel ="nofollow" target="_blank">Xiaoying Riley</a> for developers</small><br>
-				<small class="copyright">2020 &copy; Ported for Hugo by <a href="https://github.com/aerohub" rel ="nofollow" target="_blank">Pavel Kanyshev</a></small>
+				<small class="copyright">2020 &copy; José Carlos</small>
         </div>
     </footer>
 
